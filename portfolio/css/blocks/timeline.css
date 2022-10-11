@@ -1,0 +1,235 @@
+.how-work {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  /* Tablet Big*/
+  /* Tablet Small */
+}
+@media (max-width: 1139px) {
+  .how-work {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 899px) {
+  .how-work {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.gradient-line-small--margin-bottom {
+  margin-bottom: 70px;
+  /* Tablet Big*/
+  /* Tablet Small */
+}
+@media (max-width: 1139px) {
+  .gradient-line-small--margin-bottom {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 899px) {
+  .gradient-line-small--margin-bottom {
+    margin-bottom: 40px;
+  }
+}
+
+.timeline {
+  max-width: 901px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Tablet Big*/
+  /* Tablet Small */
+  /* Mobile */
+}
+@media (max-width: 1139px) {
+  .timeline {
+    max-width: 774px;
+  }
+}
+@media (max-width: 899px) {
+  .timeline {
+    max-width: 384px;
+  }
+}
+@media (max-width: 767px) {
+  .timeline {
+    max-width: 290px;
+  }
+}
+
+.timeline__step {
+  position: relative;
+  padding-right: 50px;
+  text-align: right;
+  width: 50%;
+  padding-bottom: 60px;
+  /* Tablet Big*/
+  /* Tablet Small */
+  /* Mobile */
+}
+.timeline__step:last-child {
+  padding-bottom: 0;
+  margin-top: -20px;
+}
+@media (max-width: 1139px) {
+  .timeline__step {
+    padding-right: 35px;
+    padding-bottom: 66px;
+  }
+  .timeline__step:last-child {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 899px) {
+  .timeline__step {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 44px;
+    padding-bottom: 47px;
+    text-align: left;
+  }
+  .timeline__step:last-child {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 767px) {
+  .timeline__step:last-child {
+    margin-top: -26px;
+    padding-bottom: 0px;
+  }
+}
+
+.timeline__step:nth-child(even) {
+  margin-left: auto;
+  padding-left: 51px;
+  text-align: left;
+  /* Tablet Big*/
+  /* Tablet Small */
+  /* Mobile */
+}
+@media (max-width: 1139px) {
+  .timeline__step:nth-child(even) {
+    padding-right: 35px;
+  }
+}
+@media (max-width: 899px) {
+  .timeline__step:nth-child(even) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .timeline__step:nth-child(even) {
+    padding-right: 0px;
+  }
+}
+
+.timeline__step::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  background: #FFFFFF;
+  border: 4px solid #E1EEF4;
+  border-radius: 50%;
+  top: 0;
+  right: -17px;
+  /* Tablet Small */
+}
+@media (max-width: 899px) {
+  .timeline__step::before {
+    right: auto;
+    left: 0;
+  }
+}
+
+.timeline__step:nth-child(even)::before {
+  right: auto;
+  left: -17px;
+  /* Tablet Small */
+}
+@media (max-width: 899px) {
+  .timeline__step:nth-child(even)::before {
+    left: 0;
+  }
+}
+
+.timeline__step::after {
+  content: "";
+  width: 4px;
+  position: absolute;
+  background: #E1EEF4;
+  top: 34px;
+  right: -2px;
+  bottom: -12px;
+  /* Tablet Small */
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .timeline__step::after {
+    right: auto;
+    left: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .timeline__step::after {
+    bottom: -7px;
+  }
+}
+
+.timeline__step:nth-child(even)::after {
+  right: auto;
+  left: -2px;
+  /* Tablet Small */
+}
+@media (max-width: 899px) {
+  .timeline__step:nth-child(even)::after {
+    right: auto;
+    left: 15px;
+  }
+}
+
+.timeline__step:last-child::after {
+  display: none;
+}
+
+.title-5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  /* Tablet Big*/
+}
+@media (max-width: 1139px) {
+  .title-5 {
+    font-size: 20px;
+  }
+}
+
+.timeline__description {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  /* Tablet Big*/
+}
+@media (max-width: 1139px) {
+  .timeline__description {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+}
+
+.timeline__time {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  /* Tablet Big*/
+}
+@media (max-width: 1139px) {
+  .timeline__time {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=timeline.css.map */

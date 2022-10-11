@@ -1,0 +1,30 @@
+.gallery__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    row-gap: 50px;
+}
+
+.mix-block__btn button {
+    background-color: #F2F8F6;
+    margin-right: 15px;
+    padding: 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 5px;
+    &.control-active {
+        font-size: 25px;
+        color: rgb(1, 160, 107);
+    }
+    &:hover{
+        color: rgb(0, 255, 128);
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.mix-block__btn{
+    margin-bottom: 15px;
+}

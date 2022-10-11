@@ -1,0 +1,114 @@
+@import "../base/vars";
+.footer {
+    padding-top: 86px;
+    padding-bottom: 70px;
+    background-color: #1A1A1A;
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding-top: 76px;
+        padding-bottom: 60px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.footer__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 66px;
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 56px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 30px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        margin-bottom: 40px;
+    }
+    
+}
+.footer__nav{
+    display: flex;
+    column-gap: 50px;
+    & :last-child{
+        margin-right: 50px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+        & :last-child{
+            margin-right: 0;
+        }
+    }
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        
+    }
+}
+
+
+
+.footer__nav-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover{
+        color: $accentText;
+    }
+   
+}
+
+
+.footer__sicial-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(196, 196, 196, 0.1);
+    border-radius: 50%;
+    &:hover{
+        background-color: $accentText;
+    }
+
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+.footer__copyright  {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.3);
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        line-height: 1.5;
+            text-align: center;
+          }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACR,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,cAAa",
+"sources": ["../../sass/blocks/arrow.scss"],
+"names": [],
+"file": "arrow.css"
+}

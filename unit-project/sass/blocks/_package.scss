@@ -1,0 +1,113 @@
+.package {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 270px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 300px;
+    }
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        width: 290px;
+    }
+}
+.package--special{
+    background-color: 
+        #304FFE;
+    & .package__title{
+        color: #fff;
+    }
+    & .package__period{
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+.section-price__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    /* Mobile */
+    @media (max-width: 899px) {
+       flex-direction: column;
+       align-items: center;
+       row-gap: 30px;
+    }
+
+}
+.package__header {
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.package__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color:#B2B2B2 ;
+
+}
+.package__price {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.package__period {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.package__list {
+    width: 270px;
+    margin-bottom: 58px;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+        /* Tablet */
+        @media (max-width: 1199px) {
+            width: 240px;
+        }
+        /* Mobile */
+        @media (max-width: 899px) {
+            width: 270px;
+        }
+        /* Mobile-XS */
+        @media (max-width: 599px) {
+            width: 270px;
+        }
+}
+.package__list-item {
+    margin-bottom: 25px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.package__button{
+    margin-top: auto;
+}

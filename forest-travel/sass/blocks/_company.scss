@@ -1,0 +1,21 @@
+.company_list{
+    list-style-type: disc;
+}
+.contacts-header.company{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #31405B;;
+}
+.company_link{
+    text-decoration: none;
+    color: rgb(78, 15, 194);
+    font-size: 25px;
+    transition: color .2s ease-in;
+    &:hover{
+        color: rgb(238, 255, 0);
+    }
+}
+.company img {
+    width: 1170px;
+    margin: 0 auto;
+}

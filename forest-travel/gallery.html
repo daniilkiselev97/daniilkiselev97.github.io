@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest travel</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bgcolor">
+    <header class="header-inner" >
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">ФорестТревел</div>
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-list-item"><a class="header-nav-list-link" href="./index.html">Главная</a></li>
+                        <li class="header-nav-list-item"><a class="header-nav-list-link" href="./tours.html">Туры и направления</a></li>
+                        <li class="header-nav-list-item"><a class="header-nav-list-link" href="./company.html">О компании</a></li>
+                        <li class="header-nav-list-item"><a class="header-nav-list-link" href="./gallery.html">Галерея</a></li>
+                        <li class="header-nav-list-item"><a class="header-nav-list-link" href="./contacts.html">Контакты</a></li>
+                    </ul>
+                    <div class="nav-icon">
+                        <div class="nav-icon__middle">
+                        </div>
+                    </div>
+                    <nav class="nav">
+                        <div class="nav__top">навигация по сайту</div>
+                        <ul class="nav__list">
+                            <li><a href="#mix-cards">Фотографии</a></li>
+                            <li><a href="#footer">Контактная информация</a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <main class="inner-page">
+        <div class="container">
+          <div class="contacts-header company">
+              <h1 class="main-header center">Галерея</h1>
+              
+          </div>
+          
+              <div class="gallery">
+                <div class="mix-block">
+                    <div class="mix-block__btn">
+                        <button type="button" data-filter="all">Все</button>
+                        <button type="button" data-filter=".mountain">Горные походы</button>
+                        <button type="button" data-filter=".sea">Морские виды</button>
+                        <button type="button" data-filter=".jungles">Завараживающие джунгли</button>
+                    </div>
+                    <div class="gallery__wrapper" id="mix-cards">
+                        <img src="./img/gallery/mountain tourism/mountain man.jpeg" class="mix mountain" alt="mountain">
+                        <img src="./img/gallery/sea/palms.jpeg" alt="palms" class="mix sea">
+                        <img src="./img/gallery/jungles/waterfalls.jpg" alt="waterfalls" class="mix jungles">
+                        <img src="./img/gallery/jungles/tiger.jpg" alt="tiger" class="mix jungles">
+                        <img src="./img/gallery/mountain tourism/man-snow.jpeg" alt="man-snow" class="mix mountain">
+                        <img src="./img/gallery/sea/woman-bike.jpeg" alt="woman" class="mix sea">
+                        <img src="./img/gallery/jungles/river.jpeg" alt="river" class="mix jungles">
+                        <img src="./img/gallery/mountain tourism/womanonthetop.jpg" alt="woman on the top" class="mix mountain">
+                        <img src="./img/gallery/sea/couple.jpg" alt="couple" class="mix sea">
+                        <img src="./img/gallery/sea/blue-sea.jpg" alt="sea" class="mix sea">
+                    </div>
+                </div> 
+              </div>
+              
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="footer-logo">
+                        <div class="logo">ФорестТревел</div>
+                    </div>
+                        <p>При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021</p>
+                </div>
+                <div class="footer-widgets-wrapper">
+                    <div class="footer-widget footer-widget-info ">
+                        <h4 class="footer-widget-title">Информация</h4>
+                        <ul class="footer-widget-list">
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./company.html">О компании</a></li>
+                            <li><a href="./gallery.html">Галерея</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-services">
+                        <h4 class="footer-widget-title">Услуги</h4>
+                        <ul class="footer-widget-list">
+                            <li><a href="./free_tours.html">Бесплатные туры</a></li>     
+                            <li><a href="./incredible_adventures.html">Невероятные приключения</a></li>
+                            <li><a href="./extreme_rest.html">Экстремальный отдых</a></li>
+                            <li><a href="./exotic_jungle.html">Экзотические джунгли</a></li>
+                            <li><a href="./tracking.html">Трекинг походы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-contacts">
+                        <h4 class="footer-widget-title">Контакты</h4>
+                        <ul class="footer-widget-list">
+                            <li>+7 (905)555-55-55</li>     
+                            <li>info@foresttravel.com</li>    
+                            <li>г. Москва, Рязанский проспект 54,офис 112.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="./libs/jquery/jquery-3.0.0.min.js"></script>
+    <script src="./libs/mixiiup/mixitup.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/main.js"></script>
+    
+    
+</body>
+</html>

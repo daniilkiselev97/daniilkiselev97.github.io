@@ -1,0 +1,67 @@
+.section-price {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    @include bgimage("./../img/Rectangle 4.jpg");
+    &::before{
+        @extend %overlay;
+    }
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    /* Mobile-XS */
+    @media (max-width: 599px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+.section-price__content {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    .title, .subtitle{
+        color: #fff;
+    }
+
+}
+
+.section-price__header {
+    margin-bottom: 80px;
+            /* Tablet */
+            @media (max-width: 1199px) {
+                margin-bottom: 50px;
+            }
+            /* Mobile */
+            @media (max-width: 899px) {
+                margin-bottom: 40px;
+            }
+            /* Mobile-XS */
+            @media (max-width: 599px) {
+                margin-bottom: 40px;
+            }
+}
+.section-price__title {
+    margin-bottom: 40px;
+        /* Tablet */
+        @media (max-width: 1199px) {
+            margin-bottom: 20px;
+        }
+        /* Mobile */
+        @media (max-width: 899px) {
+            margin-bottom: 20px;
+        }
+        /* Mobile-XS */
+        @media (max-width: 599px) {
+            margin-bottom: 10px;
+        }
+}
+
+
+

@@ -1,0 +1,96 @@
+.header{
+    position: relative;
+    padding-top: 50px;
+    height: 800px;
+    background-color: #265847;
+    background-image: url('./../img/Rectangle\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url('./../img/Rectangle\ smalljpg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // width: 1170px;
+    // margin: 0 auto;
+}
+
+
+.header-nav {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.header-nav-button{
+    display: none;
+}
+
+.header-nav-list {
+    display: flex;
+    
+}
+.header-nav-list-item {
+    margin-right: 50px;
+}
+.header-nav-list-item:last-child{
+    margin-right: 0;
+}
+
+.header-nav-list-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 1170px;
+    
+}
+.header-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.header-scroll{
+    position: absolute;
+    display: inline-block;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 34px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.header-scroll::after{
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url('./../img/arrow-down.svg');
+    width: 24px;
+    height: 24px;
+}
